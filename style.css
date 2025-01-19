@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    box-shadow: none;
+    padding: 0;
+}
+:root{
+    --cor-secundaria:#f4a259; 
+    --cor-nav-elements:#C7454B;
+    --animation-elements:#BF5F64;
+}   
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+nav img{
+    width: 100px;
+    height: auto;
+}
+nav >ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.links-navbar{
+    list-style: none;
+    text-decoration: none;
+}
+
+.botao_login{
+    background-color: var(--cor-nav-elements);
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.botao_login:hover{
+    background-color: var(--animation-elements);
+    transition: 0.5s;
+
+}
+.botao_login a{
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+}
+
+section >img{
+    width: 100%;
+    height: 90vh;
+}
+
+section>.text-intro{
+    position: absolute;
+    top: 30%;
+    left:25%; 
+    transform: translate(-50%, -50%); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding:10px 10px;
+
+    border-radius: 10px;
+}
+.sub-text{
+    position: absolute;
+    top: 39%;
+    left:26%; 
+    transform: translate(-50%, -50%); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding:10px 10px;
+}
+.novidades{
+    background-color: brown;
+}
+.titulo{
+    align-items: center;
+    text-align: center;
+padding: 90px 0px;
+text-transform: uppercase;
+color: #ffffff;
+
+}
+.container-cards{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+.card{
+    padding: 10px 10px;
+    margin: 10px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.card p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.card h5{
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.botao-confe{
+    background-color: #f4a259;
+    border-radius: 5px;
+    width: 150px;
+    height: auto;
+    margin-left: 63px;
+}
+.conferir{
+    font-weight: 500;
+}
